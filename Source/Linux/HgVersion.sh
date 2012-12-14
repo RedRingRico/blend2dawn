@@ -4,7 +4,7 @@
 # for the project to use
 
 HGREV=`hg identify -n`
-HGREVNOMOD=${HGREV//\+/""}
+HGREVNOMOD=${HGREV/\+/""}
 HGCHANGESET=`hg parents --template "{node}"`
 HGCHANGESETSHORT=`hg parents --template "{node|short}"`
 declare -i HGLOCALMODIFICATIONS=0
