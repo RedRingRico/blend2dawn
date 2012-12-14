@@ -57,7 +57,7 @@ ifneq ($(OBJSDIR), $(notdir $(CURDIR)))
 
 VERSIONINFO:
 	@echo "---------------------- Generating Version Information -------------------------"
-	@sh ./HgVersion.sh
+	@./HgVersion.sh
 	@echo "-------------------------------------------------------------------------------"
 
 TARGETDIR:
