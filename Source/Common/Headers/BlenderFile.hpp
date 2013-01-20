@@ -3,6 +3,7 @@
 
 #include <BlenderTypes.hpp>
 #include <vector>
+#include <string>
 
 class BlenderFile
 {
@@ -10,8 +11,8 @@ public:
 	int Read( const char *p_pBlendFile );
 
 private:
-	std::vector< char > m_SDNANames;
-	std::vector< char > m_SDNATypes;
+	std::vector< std::string > m_SDNANames;
+	std::vector< std::string > m_SDNATypes;
 	std::vector< short > m_SDNATypesSizes;
 	std::vector< short > m_SDNAStructureTypes;
 	std::vector< short > m_SDNAFieldTypes;

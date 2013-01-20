@@ -26,3 +26,5 @@ glob:*.pch
 glob:Data
 glob:*.blend
 glob:*.dmdl
+glob:HgVersion.hpp
+glob:*.vim
